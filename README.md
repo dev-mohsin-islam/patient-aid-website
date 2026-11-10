@@ -263,4 +263,5 @@ The disclaimer is present in the footer of every page and on `faq.html`:
 > medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional regarding
 > medical conditions, medications, or treatment decisions.
 #   p a t i e n t - a i d - w e b s i t e  
+ #   p a t i e n t - a i d - w e b s i t e  
  
