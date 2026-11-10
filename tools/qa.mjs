@@ -419,10 +419,10 @@ const runPage = async (file, viewport) => {
         phone: names(document.querySelector('.hero-visual .phone')),
         glow: names(document.querySelector('.hero-glow')),
         float: names(document.querySelector('.float-card')),
-        mark: names(document.querySelector('.site-header .brand-mark svg path'))
+        mark: names(document.querySelector('.site-header .brand-mark img'))
       };
     })()`);
-    record(file, label, "hero entrance animations configured", heroMotion.copy === "riseIn" && heroMotion.phone === "phoneIn" && /glowDrift/.test(heroMotion.glow) && /float/.test(heroMotion.float) && heroMotion.mark === "drawStroke", JSON.stringify(heroMotion));
+    record(file, label, "hero entrance animations configured", heroMotion.copy === "riseIn" && heroMotion.phone === "phoneIn" && /glowDrift/.test(heroMotion.glow) && /float/.test(heroMotion.float) && /popIn/.test(heroMotion.mark), JSON.stringify(heroMotion));
     await tab.send("Emulation.setEmulatedMedia", {
       features: [{ name: "prefers-reduced-motion", value: "reduce" }],
     });

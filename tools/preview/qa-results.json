@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T06:35:25.173Z",
+  "generatedAt": "2026-11-10T07:04:41.837Z",
   "total": 403,
   "failures": 0,
   "results": [
@@ -169,7 +169,7 @@
       "viewport": "desktop",
       "name": "hero entrance animations configured",
       "ok": true,
-      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"drawStroke\"}"
+      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"popIn\"}"
     },
     {
       "page": "index.html",
@@ -337,7 +337,7 @@
       "viewport": "tablet",
       "name": "hero entrance animations configured",
       "ok": true,
-      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"drawStroke\"}"
+      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"popIn\"}"
     },
     {
       "page": "index.html",
@@ -512,7 +512,7 @@
       "viewport": "mobile",
       "name": "hero entrance animations configured",
       "ok": true,
-      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"drawStroke\"}"
+      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"popIn\"}"
     },
     {
       "page": "about.html",

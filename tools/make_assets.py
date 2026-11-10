@@ -596,16 +596,16 @@ def write_screens():
 
 
 def write_logo():
+    """Wordmark: the official app icon plus typeset product name."""
+    import base64
+
+    icon_data = base64.b64encode((IMG / "patient-aid-icon.png").read_bytes()).decode("ascii")
     svg_logo = (
         '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 64" width="240" height="64" '
         'role="img" aria-label="Patient Aid">'
-        '<defs><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1">'
-        f'<stop offset="0" stop-color="{PRIMARY}"/><stop offset="1" stop-color="{SECONDARY}"/>'
-        '</linearGradient></defs>'
-        '<rect x="4" y="8" width="48" height="48" rx="14" fill="url(#lg)"/>'
-        '<path d="M28 20v24M16 32h24" stroke="#fff" stroke-width="4.6" stroke-linecap="round"/>'
-        f'<text x="66" y="34" font-family="{FONT}" font-size="22" font-weight="750" fill="{INK}">Patient Aid</text>'
-        f'<text x="66" y="52" font-family="{FONT}" font-size="9.5" font-weight="650" '
+        f'<image x="0" y="8" width="48" height="48" href="data:image/png;base64,{icon_data}"/>'
+        f'<text x="62" y="34" font-family="{FONT}" font-size="22" font-weight="750" fill="{INK}">Patient Aid</text>'
+        f'<text x="62" y="52" font-family="{FONT}" font-size="9.5" font-weight="650" '
         f'letter-spacing="2.1" fill="{MUTED}">BY ITMEDICUS</text>'
         '</svg>\n'
     )
@@ -614,13 +614,13 @@ def write_logo():
 
 
 def write_favicon():
+    """SVG favicon that embeds the official raster icon, for crisp tab display."""
+    import base64
+
+    icon_data = base64.b64encode((IMG / "patient-aid-icon.png").read_bytes()).decode("ascii")
     favicon = (
-        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">'
-        '<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">'
-        f'<stop offset="0" stop-color="{PRIMARY}"/><stop offset="1" stop-color="{SECONDARY}"/>'
-        '</linearGradient></defs>'
-        '<rect width="64" height="64" rx="16" fill="url(#g)"/>'
-        '<path d="M32 16v32M16 32h32" stroke="#fff" stroke-width="6" stroke-linecap="round"/>'
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96">'
+        f'<image width="96" height="96" href="data:image/png;base64,{icon_data}"/>'
         '</svg>\n'
     )
     (ROOT / "favicon.svg").write_text(favicon, encoding="utf-8")
@@ -629,7 +629,7 @@ def write_favicon():
 
 def write_png_assets():
     try:
-        from PIL import Image, ImageDraw, ImageFont
+        from PIL import Image, ImageDraw, ImageFont, ImageOps
     except ImportError:
         print("Pillow not available — skipping PNG assets")
         return
@@ -664,10 +664,9 @@ def write_png_assets():
     img = Image.blend(img, glow, 0.35)
     d = ImageDraw.Draw(img)
 
-    d.rounded_rectangle([80, 92, 144, 156], radius=17, fill="#1686D9")
-    d.rounded_rectangle([88, 100, 136, 148], radius=13, fill="#1686D9")
-    d.line([(112, 106), (112, 142)], fill="white", width=6)
-    d.line([(94, 124), (130, 124)], fill="white", width=6)
+    # official app icon in the top-left corner
+    icon = Image.open(IMG / "patient-aid-icon.png").convert("RGBA").resize((64, 64), Image.LANCZOS)
+    img.paste(icon, (80, 92), icon)
 
     d.text((168, 96), "Patient Aid", font=font(40), fill="#FFFFFF")
     d.text((170, 146), "BY ITMEDICUS SOLUTIONS", font=font(15), fill="#7FB3CE")
@@ -685,54 +684,33 @@ def write_png_assets():
 
     # phone silhouette
     d.rounded_rectangle([872, 70, 1112, 590], radius=46, fill="#0A1A28", outline="#2B4358", width=3)
-    d.rounded_rectangle([888, 86, 1096, 574], radius=34, fill="#F7FAFD")
-    d.rounded_rectangle([888, 86, 1096, 268], radius=34, fill="#1686D9")
-    d.rectangle([888, 236, 1096, 268], fill="#1686D9")
 
-    # status bar and app header
-    d.rounded_rectangle([912, 106, 940, 112], radius=3, fill="#BFE4F8")
-    d.rounded_rectangle([1060, 106, 1082, 112], radius=3, fill="#BFE4F8")
-    d.rounded_rectangle([912, 146, 1022, 161], radius=7, fill="#FFFFFF")
-    d.rounded_rectangle([912, 171, 1080, 181], radius=5, fill="#9FD6F2")
-
-    # search field
-    d.rounded_rectangle([908, 200, 1076, 244], radius=22, fill="#FFFFFF")
-    d.ellipse([922, 214, 934, 226], outline="#8FA6B8", width=2)
-    d.rounded_rectangle([944, 216, 1024, 224], radius=4, fill="#C9DCEA")
-
-    # medicine list rows
-    for i, accent in enumerate(["#1686D9", "#00A8B5", "#4B5BD7", "#C4761A"]):
-        y = 278 + i * 66
-        d.rounded_rectangle([904, y, 1080, y + 54], radius=13, fill="#FFFFFF")
-        d.ellipse([920, y + 18, 938, y + 36], fill=accent)
-        d.rounded_rectangle([950, y + 14, 1030, y + 23], radius=4, fill="#B9CEDF")
-        d.rounded_rectangle([950, y + 31, 1006, y + 38], radius=4, fill="#DCE8F2")
-        d.rounded_rectangle([1032, y + 18, 1068, y + 36], radius=9, fill="#E8F3FC")
-
-    # bottom navigation
-    d.line([(888, 540), (1096, 540)], fill="#E2ECF5", width=2)
-    for i in range(4):
-        cx = 938 + i * 42
-        d.ellipse([cx - 7, 552, cx + 7, 566], fill="#C9DCEA")
+    # genuine home screen inside the phone
+    x0, y0, x1, y1 = 888, 86, 1096, 574
+    shot = Image.open(SCREENS / "home.webp").convert("RGB")
+    fitted = ImageOps.fit(shot, (x1 - x0, y1 - y0), method=Image.LANCZOS)
+    screen_mask = Image.new("L", fitted.size, 0)
+    ImageDraw.Draw(screen_mask).rounded_rectangle(
+        [0, 0, fitted.size[0] - 1, fitted.size[1] - 1], radius=34, fill=255
+    )
+    img.paste(fitted, (x0, y0), screen_mask)
 
     img.save(IMG / "og-image.png", optimize=True)
     print("wrote og-image.png")
 
-    # ---- Touch icon (180x180) ----
-    icon = Image.new("RGB", (180, 180), "#1686D9")
-    idraw = ImageDraw.Draw(icon)
-    for y in range(180):
-        t = y / 180
-        idraw.line([(0, y), (180, y)], fill=(int(22 + 0 * t), int(134 - 30 * t), int(217 - 30 * t)))
-    idraw.rounded_rectangle([54, 40, 126, 140], radius=18, fill="white")
-    idraw.rectangle([84, 52, 96, 128], fill="#1686D9")
-    idraw.rectangle([64, 80, 116, 100], fill="#1686D9")
-    icon.save(IMG / "apple-touch-icon.png", optimize=True)
+    # ---- Touch icon (180x180) and favicon, built from the official icon ----
+    app_icon = Image.open(IMG / "patient-aid-icon.png").convert("RGBA")
+    full_icon = Image.new("RGBA", (512, 512), (0, 96, 138, 255))
+    full_icon.alpha_composite(app_icon.resize((512, 512), Image.LANCZOS))
+
+    full_icon.convert("RGB").resize((180, 180), Image.LANCZOS).save(
+        IMG / "apple-touch-icon.png", optimize=True
+    )
     print("wrote apple-touch-icon.png")
 
-    # ---- Favicon PNG (32px) ----
-    fav = icon.resize((32, 32), Image.LANCZOS)
-    fav.save(ROOT / "favicon-32.png", optimize=True)
+    full_icon.convert("RGB").resize((32, 32), Image.LANCZOS).save(
+        ROOT / "favicon-32.png", optimize=True
+    )
     print("wrote favicon-32.png")
 
 

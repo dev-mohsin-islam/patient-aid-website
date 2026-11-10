@@ -152,7 +152,7 @@ The animation layer was verified in both motion modes:
 | Behaviour | Normal motion | Reduced motion |
 | --- | --- | --- |
 | Hero entrance choreography | Staggered rise, phone scale-in, float-card pop | Instant, static |
-| Brand-mark draw | Draws once on load | Instant |
+| Logo settle | Pops in gently on load | Instant |
 | Scroll progress bar | Tracks page progress | Tracks page progress (decorative) |
 | Hero pointer parallax | Follows pointer within ~7 px | Disabled (asserted by the suite) |
 | Section reveals | Fade/slide in on entry | Instant, visible |
@@ -198,7 +198,7 @@ path for content: text is painted as the fade begins rather than after it comple
 | Item | Status |
 | --- | --- |
 | App screenshots | Genuine screenshots supplied and in use (WebP); refresh if the app UI changes |
-| Logo, favicon, social image | Demo assets; replace with brand-approved files |
+| Logo, favicon, social image | Official app icon supplied; all sizes generated from it (refresh if a higher-resolution source arrives) |
 | Domain in canonical/OG/sitemap/robots | `patientaid.example.com` placeholder; replace with the production domain |
 | Privacy policy | Placeholder outline; replace with the official policy URL/content |
 | App statistics / ratings | 3M+ downloads, 150K+ reviews and a 4.5 / 5 rating are displayed as supplied; confirm all three against the live Google Play listing before launch |

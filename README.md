@@ -55,6 +55,7 @@ patient-aid-website/
 │   ├── js/main.js           Navigation, accordion, lightbox, reveal, tabs
 │   └── img/
 │       ├── og-image.png     1200×630 social preview
+│       ├── patient-aid-icon.png  Official app icon (source for all marks)
 │       ├── apple-touch-icon.png
 │       ├── patient-aid-logo.svg
 │       └── screens/         12 genuine app screenshots (WebP)
@@ -73,9 +74,10 @@ links, so the site works from any folder or subdirectory.
 
 ## 3. Screenshots and brand assets
 
-> **Note:** the app screens are now genuine screenshots supplied by ITmedicus Solutions. The logo,
-> favicon, and social preview are still generated brand placeholders — replace them with official
-> files if available.
+> **Note:** the app screens and the Patient Aid logo are the genuine assets supplied by ITmedicus
+> Solutions. Every icon size (favicon, touch icon, social preview, wordmark) is generated from the
+> supplied 96 × 96 icon — replace `assets/img/patient-aid-icon.png` if a higher-resolution or vector
+> source becomes available, then re-run `tools/make_assets.py`.
 
 ### 3.1 App screenshots
 
@@ -111,16 +113,22 @@ and alt text. Screens also appear in the hero, the offline and My Medicine secti
 
 ### 3.2 Logo and icons
 
-- `assets/img/patient-aid-logo.svg` — wordmark used in the developer panel. Replace with the official
-  Patient Aid logo (SVG or transparent PNG).
-- Header/footer brand mark is inline SVG (a simple cross). Replace the `<span class="brand-mark">`
-  contents if you have an official app icon.
-- `favicon.svg`, `favicon-32.png`, `assets/img/apple-touch-icon.png` — rebuild from the official icon.
-- `assets/img/og-image.png` (1200 × 630) — social sharing image; replace with a brand-approved version.
-- Feature icons are hand-authored inline SVG paths (no third-party icon licence required). They can be
-  swapped for Lucide or Bootstrap Icons if you prefer.
+The official Patient Aid app icon is in place (`assets/img/patient-aid-icon.png`, 96 × 96 transparent
+PNG) and is used for:
 
-### 3.3 Regenerating brand placeholders
+- the header, footer, and hero brand marks (rendered from the PNG at 30–38 px);
+- `assets/img/patient-aid-logo.svg` — the developer-panel wordmark, which embeds the icon;
+- `favicon.svg`, `favicon-32.png`, and `assets/img/apple-touch-icon.png`, generated on a full-bleed
+  brand-blue square so mobile home screens mask it cleanly;
+- `assets/img/og-image.png` (1200 × 630) — social sharing image.
+
+If a higher-resolution or vector version of the icon becomes available, replace
+`assets/img/patient-aid-icon.png` and run `python tools/make_assets.py` to regenerate every size.
+
+Feature icons are hand-authored inline SVG paths (no third-party icon licence required). They can be
+swapped for Lucide or Bootstrap Icons if you prefer.
+
+### 3.3 Regenerating brand assets
 
 `tools/make_assets.py` rebuilds the logo, favicon, touch icon, and social preview:
 
@@ -209,7 +217,7 @@ is decorative (`aria-hidden`).
 | --- | --- | --- |
 | Domain | `<link rel="canonical">`, `og:url`, `og:image`, `twitter:image`, `sitemap.xml`, `robots.txt` | Replace `patientaid.example.com` with the production domain |
 | Screenshots | `assets/img/screens/*.webp`, image `src`/`alt`, gallery `data-full` | Genuine screenshots are in place; refresh them if the app UI changes |
-| Logo & icons | `assets/img/patient-aid-logo.svg`, favicon, touch icon, OG image | Use official brand assets |
+| Logo & icons | `assets/img/patient-aid-icon.png` + generated sizes | Official icon is in use; replace the source PNG and re-run `tools/make_assets.py` if a higher-resolution asset arrives |
 | Privacy policy | `privacy.html` | Replace the placeholder text with the official policy, or point the links to the policy on itmedicus.com |
 | Statistics | Home page stats band (`index.html`, `#stats`) | The figures **3M+ downloads**, **150K+ reviews** and a **4.5 / 5 rating** were supplied for this build. Confirm they are current and approved, then update `data-count-to` / `data-count-suffix` / `data-count-decimals`, the star row, **and** the visible fallback text together |
 | Contact details | Footer, `contact.html`, structured data | Confirm address, email, and phone with ITmedicus |
@@ -262,11 +270,4 @@ The disclaimer is present in the footer of every page and on `faq.html`:
 > purposes only. The information available in the application is not a substitute for professional
 > medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional regarding
 > medical conditions, medications, or treatment decisions.
-#   p a t i e n t - a i d - w e b s i t e  
- #   p a t i e n t - a i d - w e b s i t e  
- #   p a t i e n t - a i d - w e b s i t e  
-<<<<<<< HEAD
- #   p a t i e n t - a i d - w e b s i t e  
-=======
->>>>>>> 6702e858a676d65fe0a8baf1b3dd31e7b715a188
- 
+#
