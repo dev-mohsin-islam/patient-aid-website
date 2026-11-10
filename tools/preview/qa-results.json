@@ -1,0 +1,2828 @@
+{
+  "generatedAt": "2026-11-10T06:35:25.173Z",
+  "total": 403,
+  "failures": 0,
+  "results": [
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":16,\"H3\":28}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "181 chars"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "FAQ accordion toggles",
+      "ok": true,
+      "detail": "{\"before\":{\"expanded\":\"false\",\"open\":false},\"opened\":{\"expanded\":\"true\",\"open\":true,\"hidden\":\"false\",\"height\":67.890625},\"closed\":{\"expanded\":\"false\",\"open\":false}}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "language switcher works",
+      "ok": true,
+      "detail": "{\"enHidden\":false,\"bnHidden\":true,\"enSelected\":\"true\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "lightbox opens and closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"src\":\"assets/img/screens/home.webp\",\"closed\":true,\"lockedAfter\":false}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "download, review and rating stats",
+      "ok": true,
+      "detail": "{\"section\":true,\"count\":3,\"values\":[\"3M+\",\"150K+\",\"4.5\"],\"labels\":[\"Downloads on Google Play\",\"Reviews from Google Play users\",\"Average rating on Google Play (out of 5)\"],\"stars\":5}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.111, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "parallax disabled under reduced motion",
+      "ok": true,
+      "detail": "{\"px\":\"\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "hero entrance animations configured",
+      "ok": true,
+      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"drawStroke\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":16,\"H3\":28}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "181 chars"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "FAQ accordion toggles",
+      "ok": true,
+      "detail": "{\"before\":{\"expanded\":\"false\",\"open\":false},\"opened\":{\"expanded\":\"true\",\"open\":true,\"hidden\":\"false\",\"height\":67.890625},\"closed\":{\"expanded\":\"false\",\"open\":false}}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "language switcher works",
+      "ok": true,
+      "detail": "{\"enHidden\":false,\"bnHidden\":true,\"enSelected\":\"true\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "lightbox opens and closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"src\":\"assets/img/screens/home.webp\",\"closed\":true,\"lockedAfter\":false}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "download, review and rating stats",
+      "ok": true,
+      "detail": "{\"section\":true,\"count\":3,\"values\":[\"3M+\",\"150K+\",\"4.5\"],\"labels\":[\"Downloads on Google Play\",\"Reviews from Google Play users\",\"Average rating on Google Play (out of 5)\"],\"stars\":5}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.0885, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "parallax disabled under reduced motion",
+      "ok": true,
+      "detail": "{\"px\":\"\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "hero entrance animations configured",
+      "ok": true,
+      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"drawStroke\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":16,\"H3\":28}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "181 chars"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "FAQ accordion toggles",
+      "ok": true,
+      "detail": "{\"before\":{\"expanded\":\"false\",\"open\":false},\"opened\":{\"expanded\":\"true\",\"open\":true,\"hidden\":\"false\",\"height\":117.390625},\"closed\":{\"expanded\":\"false\",\"open\":false}}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "language switcher works",
+      "ok": true,
+      "detail": "{\"enHidden\":false,\"bnHidden\":true,\"enSelected\":\"true\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "lightbox opens and closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"src\":\"assets/img/screens/home.webp\",\"closed\":true,\"lockedAfter\":false}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "download, review and rating stats",
+      "ok": true,
+      "detail": "{\"section\":true,\"count\":3,\"values\":[\"3M+\",\"150K+\",\"4.5\"],\"labels\":[\"Downloads on Google Play\",\"Reviews from Google Play users\",\"Average rating on Google Play (out of 5)\"],\"stars\":5}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.0657, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "parallax disabled under reduced motion",
+      "ok": true,
+      "detail": "{\"px\":\"\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "hero entrance animations configured",
+      "ok": true,
+      "detail": "{\"copy\":\"riseIn\",\"phone\":\"phoneIn\",\"glow\":\"popIn, glowDrift\",\"float\":\"popIn, float\",\"mark\":\"drawStroke\"}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":9,\"H3\":7}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "179 chars"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/about.html"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.418, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":9,\"H3\":7}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "179 chars"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/about.html"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.3631, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":9,\"H3\":7}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "179 chars"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/about.html"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.2311, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H3\":14,\"H2\":6}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "193 chars"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/features.html"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.338, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H3\":14,\"H2\":6}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "193 chars"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/features.html"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.3113, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H3\":14,\"H2\":6}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "193 chars"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/features.html"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.1535, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":7,\"H3\":9}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "181 chars"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/premium.html"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.4892, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":7,\"H3\":9}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "181 chars"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/premium.html"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.3718, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":7,\"H3\":9}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "181 chars"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/premium.html"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.2352, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":4}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "179 chars"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/faq.html"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.9993, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":4}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "179 chars"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/faq.html"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(1, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":4}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "179 chars"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/faq.html"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.5611, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H3\":5,\"H2\":4,\"H4\":1}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "149 chars"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/contact.html"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(1, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H3\":5,\"H2\":4,\"H4\":1}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "149 chars"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/contact.html"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.9887, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H3\":5,\"H2\":4,\"H4\":1}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "149 chars"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/contact.html"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.556, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 1440 > innerWidth 1440"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":13}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "166 chars"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/privacy.html"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.4937, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 820 > innerWidth 820"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":13}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "166 chars"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/privacy.html"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "sticky header",
+      "ok": true,
+      "detail": "sticky"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.5034, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "no horizontal overflow",
+      "ok": true,
+      "detail": "scrollWidth 390 > innerWidth 390"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "all images load",
+      "ok": true,
+      "detail": "0 broken: "
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "all images have alt",
+      "ok": true,
+      "detail": "0 missing alt"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "images have width/height",
+      "ok": true,
+      "detail": "0 missing dimensions"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "exactly one h1",
+      "ok": true,
+      "detail": "{\"H1\":1,\"H2\":13}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "no duplicate ids",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "in-page anchors resolve",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "no placeholder links",
+      "ok": true,
+      "detail": "0 found"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "Play Store links correct",
+      "ok": true,
+      "detail": "[{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"},{\"href\":\"https://play.google.com/store/apps/details?id=com.itmedicus.patientaid\",\"target\":\"_blank\",\"rel\":\"noopener noreferrer\"}]"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "meta description length",
+      "ok": true,
+      "detail": "166 chars"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "OG + Twitter metadata",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "canonical url",
+      "ok": true,
+      "detail": "https://patientaid.example.com/privacy.html"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "responsive viewport meta",
+      "ok": true,
+      "detail": "width=device-width, initial-scale=1"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "main landmark + skip link",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "medical disclaimer in footer",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "html lang set",
+      "ok": true,
+      "detail": "en"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "mobile menu button visible",
+      "ok": true,
+      "detail": ""
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "mobile menu opens/closes",
+      "ok": true,
+      "detail": "{\"open\":true,\"expanded\":\"true\",\"visible\":true,\"closed\":true}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "scroll progress bar updates",
+      "ok": true,
+      "detail": "{\"exists\":true,\"transform\":\"matrix(0.2799, 0, 0, 1, 0, 0)\"}"
+    }
+  ]
+}

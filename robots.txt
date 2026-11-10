@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Development tooling is not part of the published website.
+Disallow: /tools/
+
+Sitemap: https://patientaid.example.com/sitemap.xml

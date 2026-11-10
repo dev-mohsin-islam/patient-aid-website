@@ -265,5 +265,8 @@ The disclaimer is present in the footer of every page and on `faq.html`:
 #   p a t i e n t - a i d - w e b s i t e  
  #   p a t i e n t - a i d - w e b s i t e  
  #   p a t i e n t - a i d - w e b s i t e  
+<<<<<<< HEAD
  #   p a t i e n t - a i d - w e b s i t e  
+=======
+>>>>>>> 6702e858a676d65fe0a8baf1b3dd31e7b715a188
  
