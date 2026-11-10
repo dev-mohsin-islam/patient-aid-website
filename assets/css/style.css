@@ -3077,3 +3077,40 @@ body.is-locked {
     font-size: 0.8125rem;
   }
 }
+
+/* ---------------------------------------------------------------- 404 -- */
+.notfound {
+  max-width: 34rem;
+  margin-inline: auto;
+  padding-block: clamp(4rem, 10vh, 8rem);
+  text-align: center;
+}
+
+.notfound .brand {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto 2rem;
+}
+
+.notfound h1 {
+  font-size: clamp(2rem, 1.4rem + 2vw, 2.75rem);
+  margin-bottom: 0.6rem;
+}
+
+.notfound p {
+  color: var(--muted);
+}
+
+.notfound .hero-actions {
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.notfound-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.9375rem;
+}

@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T07:04:41.837Z",
-  "total": 403,
+  "generatedAt": "2026-11-10T07:52:38.195Z",
+  "total": 509,
   "failures": 0,
   "results": [
     {
@@ -71,7 +71,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "181 chars"
+      "detail": "155 chars"
     },
     {
       "page": "index.html",
@@ -114,6 +114,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "60 chars"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"SoftwareApplication\"],\"errors\":0}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":false,\"visible\":false}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "index.html",
@@ -239,7 +274,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "181 chars"
+      "detail": "155 chars"
     },
     {
       "page": "index.html",
@@ -282,6 +317,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "60 chars"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"SoftwareApplication\"],\"errors\":0}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":false,\"visible\":false}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "index.html",
@@ -407,7 +477,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "181 chars"
+      "detail": "155 chars"
     },
     {
       "page": "index.html",
@@ -450,6 +520,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "60 chars"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/\"}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"SoftwareApplication\"],\"errors\":0}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":false,\"visible\":false}"
+    },
+    {
+      "page": "index.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "index.html",
@@ -582,7 +687,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "179 chars"
+      "detail": "135 chars"
     },
     {
       "page": "about.html",
@@ -625,6 +730,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "57 chars"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/about.html\"}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "about.html",
@@ -708,7 +848,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "179 chars"
+      "detail": "135 chars"
     },
     {
       "page": "about.html",
@@ -751,6 +891,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "57 chars"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/about.html\"}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "about.html",
@@ -834,7 +1009,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "179 chars"
+      "detail": "135 chars"
     },
     {
       "page": "about.html",
@@ -877,6 +1052,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "57 chars"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/about.html\"}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "about.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "about.html",
@@ -967,7 +1177,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "193 chars"
+      "detail": "148 chars"
     },
     {
       "page": "features.html",
@@ -1010,6 +1220,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "52 chars"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/features.html\"}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "features.html",
@@ -1093,7 +1338,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "193 chars"
+      "detail": "148 chars"
     },
     {
       "page": "features.html",
@@ -1136,6 +1381,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "52 chars"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/features.html\"}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "features.html",
@@ -1219,7 +1499,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "193 chars"
+      "detail": "148 chars"
     },
     {
       "page": "features.html",
@@ -1262,6 +1542,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "52 chars"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/features.html\"}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "features.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "features.html",
@@ -1352,7 +1667,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "181 chars"
+      "detail": "144 chars"
     },
     {
       "page": "premium.html",
@@ -1395,6 +1710,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "49 chars"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/premium.html\"}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "premium.html",
@@ -1478,7 +1828,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "181 chars"
+      "detail": "144 chars"
     },
     {
       "page": "premium.html",
@@ -1521,6 +1871,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "49 chars"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/premium.html\"}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "premium.html",
@@ -1604,7 +1989,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "181 chars"
+      "detail": "144 chars"
     },
     {
       "page": "premium.html",
@@ -1647,6 +2032,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "49 chars"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/premium.html\"}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "premium.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "premium.html",
@@ -1737,7 +2157,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "179 chars"
+      "detail": "144 chars"
     },
     {
       "page": "faq.html",
@@ -1780,6 +2200,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "48 chars"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/faq.html\"}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"FAQPage\",\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "faq.html",
@@ -1863,7 +2318,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "179 chars"
+      "detail": "144 chars"
     },
     {
       "page": "faq.html",
@@ -1906,6 +2361,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "48 chars"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/faq.html\"}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"FAQPage\",\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "faq.html",
@@ -1989,7 +2479,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "179 chars"
+      "detail": "144 chars"
     },
     {
       "page": "faq.html",
@@ -2032,6 +2522,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "48 chars"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/faq.html\"}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"FAQPage\",\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "faq.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "faq.html",
@@ -2122,7 +2647,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "149 chars"
+      "detail": "132 chars"
     },
     {
       "page": "contact.html",
@@ -2165,6 +2690,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "46 chars"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/contact.html\"}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "contact.html",
@@ -2248,7 +2808,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "149 chars"
+      "detail": "132 chars"
     },
     {
       "page": "contact.html",
@@ -2291,6 +2851,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "46 chars"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/contact.html\"}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "contact.html",
@@ -2374,7 +2969,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "149 chars"
+      "detail": "132 chars"
     },
     {
       "page": "contact.html",
@@ -2417,6 +3012,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "46 chars"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow, max-image-preview:large, max-snippet:-1\",\"canonical\":\"https://patientaid.example.com/contact.html\"}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "contact.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "contact.html",
@@ -2507,7 +3137,7 @@
       "viewport": "desktop",
       "name": "meta description length",
       "ok": true,
-      "detail": "166 chars"
+      "detail": "121 chars"
     },
     {
       "page": "privacy.html",
@@ -2550,6 +3180,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "title length",
+      "ok": true,
+      "detail": "50 chars"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow\",\"canonical\":\"https://patientaid.example.com/privacy.html\"}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "desktop",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "privacy.html",
@@ -2633,7 +3298,7 @@
       "viewport": "tablet",
       "name": "meta description length",
       "ok": true,
-      "detail": "166 chars"
+      "detail": "121 chars"
     },
     {
       "page": "privacy.html",
@@ -2676,6 +3341,41 @@
       "name": "html lang set",
       "ok": true,
       "detail": "en"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "title length",
+      "ok": true,
+      "detail": "50 chars"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow\",\"canonical\":\"https://patientaid.example.com/privacy.html\"}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "tablet",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
     },
     {
       "page": "privacy.html",
@@ -2759,7 +3459,7 @@
       "viewport": "mobile",
       "name": "meta description length",
       "ok": true,
-      "detail": "166 chars"
+      "detail": "121 chars"
     },
     {
       "page": "privacy.html",
@@ -2806,6 +3506,41 @@
     {
       "page": "privacy.html",
       "viewport": "mobile",
+      "name": "title length",
+      "ok": true,
+      "detail": "50 chars"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "robots + canonical",
+      "ok": true,
+      "detail": "{\"robots\":\"index, follow\",\"canonical\":\"https://patientaid.example.com/privacy.html\"}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "structured data parses",
+      "ok": true,
+      "detail": "{\"types\":[\"Organization\",\"WebSite\",\"WebPage\",\"BreadcrumbList\"],\"errors\":0}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "breadcrumb structured data",
+      "ok": true,
+      "detail": "{\"schema\":true,\"visible\":true}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
+      "name": "favicon set + web manifest",
+      "ok": true,
+      "detail": "{\"count\":5,\"manifest\":\"manifest.json\",\"hrefs\":[\"favicon.ico?v=2\",\"favicon.svg?v=2\",\"favicon-32.png?v=2\",\"favicon-192.png?v=2\",\"assets/img/apple-touch-icon.png?v=2\"]}"
+    },
+    {
+      "page": "privacy.html",
+      "viewport": "mobile",
       "name": "mobile menu button visible",
       "ok": true,
       "detail": ""
@@ -2823,6 +3558,13 @@
       "name": "scroll progress bar updates",
       "ok": true,
       "detail": "{\"exists\":true,\"transform\":\"matrix(0.2799, 0, 0, 1, 0, 0)\"}"
+    },
+    {
+      "page": "404.html",
+      "viewport": "desktop",
+      "name": "404 is noindex with recovery links",
+      "ok": true,
+      "detail": "{\"robots\":\"noindex, follow\",\"canonical\":false,\"h1\":\"We could not find that page\",\"homeLink\":true}"
     }
   ]
 }

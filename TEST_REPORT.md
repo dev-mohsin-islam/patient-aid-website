@@ -13,7 +13,7 @@
 
 | Area | Result |
 | --- | --- |
-| Automated checks | **403 / 403 passed (0 failures)** |
+| Automated checks | **509 / 509 passed (0 failures)** |
 | Pages tested | 7 of 7 (`index`, `about`, `features`, `premium`, `faq`, `contact`, `privacy`) |
 | Viewports tested | 3 (desktop, tablet, mobile) |
 | Console errors / JS exceptions | 0 |
@@ -75,12 +75,18 @@ Each of the 21 page/viewport combinations was checked for the following (21 pass
 | FAQ accordion toggles | 3/3 | `aria-expanded`/`aria-hidden` + panel height |
 | Language switcher works | 3/3 | Switches Bangla/English sample panels |
 | Lightbox opens and closes | 3/3 | Opens correct image, Escape closes, body unlock |
+| Title length | 21/21 | Unique titles, 46–60 characters |
+| Robots + canonical | 21/21 | `index, follow, max-image-preview:large`; absolute HTTPS canonical |
+| Structured data parses | 21/21 | `Organization`, `WebSite`, `WebPage` on every page; no JSON errors |
+| Breadcrumb structured data | 21/21 | `BreadcrumbList` matches the visible breadcrumb on sub-pages |
+| 404 page | 1/1 | `noindex`, no canonical, heading and recovery links present |
+| Favicon set + web manifest | 21/21 | ICO, SVG, PNG icons, apple-touch icon, and manifest linked |
 | Download, review and rating stats | 3/3 | Stats band renders 3M+ downloads, 150K+ reviews and a 4.5 rating with 5 stars |
 | Scroll progress bar updates | 21/21 | Bar scales with page progress after scrolling |
 | Hero entrance animations configured | 3/3 | Staggered copy, phone, glow, float cards, brand draw |
 | Parallax disabled under reduced motion | 3/3 | Hero visual stays still for reduced-motion users |
 
-**Total: 403 checks, 403 passed.**
+**Total: 509 checks, 509 passed.**
 
 ---
 
@@ -166,12 +172,36 @@ path for content: text is painted as the fade begins rather than after it comple
 
 ---
 
-## 7. Performance considerations
+## 7. SEO verification
+
+| Item | Result |
+| --- | --- |
+| Unique titles | 7/7, 46–60 characters, keyword-led |
+| Meta descriptions | 7/7, 121–155 characters |
+| Canonical URLs | Absolute HTTPS on every page (placeholder domain until launch) |
+| Robots meta | `index, follow, max-image-preview:large` on all public pages |
+| Open Graph + Twitter | 7/7 with 1200 × 630 image and alt text |
+| Structured data | `Organization`, `WebSite`, `WebPage` sitewide; `BreadcrumbList` on sub-pages; `SoftwareApplication` + `aggregateRating` on home; `FAQPage` on the FAQ |
+| Sitemap / robots | `sitemap.xml` lists all 7 pages; `robots.txt` allows crawl, blocks `/tools/`, declares the sitemap |
+| 404 page | `noindex, follow`, no canonical, recovery links |
+| Language | `html lang="en"`; the Bangla sample is marked `lang="bn"` |
+| Images | Descriptive alt text, explicit dimensions, lazy below the fold, hero preloaded |
+| Internal linking | Header, footer, breadcrumbs, and in-content links |
+
+`tools/set_domain.py` was tested against a copy of the project: 125 absolute URLs across the seven
+pages, `sitemap.xml`, and `robots.txt` switched to the new origin, and the TODO comments were removed.
+
+> The `aggregateRating` (4.5, 150,000 ratings) mirrors the visible stats band and must be kept in sync
+> with the live Google Play listing.
+
+---
+
+## 8. Performance considerations
 
 - No frameworks or libraries; one CSS file (~57 KB unminified) and one JS file (~12 KB).
 - Animation is GPU-friendly (`transform`/`opacity` only) and respects `prefers-reduced-motion`.
 - Twelve genuine app screenshots are WebP (25–83 KB each) with explicit dimensions.
-- Hero image is eager with `fetchpriority="high"`; all other images are `loading="lazy"` with
+- Hero image is preloaded with `fetchpriority="high"`; all other images are `loading="lazy"` with
   `decoding="async"`.
 - Fonts use `preconnect` + `display=swap` with a system fallback stack, so text renders before the
   webfont arrives.
@@ -179,7 +209,7 @@ path for content: text is painted as the fade begins rather than after it comple
 
 ---
 
-## 8. Content and scope review
+## 9. Content and scope review
 
 - All marketing copy follows the supplied brief. The download (3M+), review (150K+) and rating (4.5 / 5)
   figures were supplied by the client for this build; no other statistics, ratings, or medical claims
@@ -193,13 +223,13 @@ path for content: text is painted as the fade begins rather than after it comple
 
 ---
 
-## 9. Known limitations before launch
+## 10. Known limitations before launch
 
 | Item | Status |
 | --- | --- |
 | App screenshots | Genuine screenshots supplied and in use (WebP); refresh if the app UI changes |
 | Logo, favicon, social image | Official app icon supplied; all sizes generated from it (refresh if a higher-resolution source arrives) |
-| Domain in canonical/OG/sitemap/robots | `patientaid.example.com` placeholder; replace with the production domain |
+| Domain in canonical/OG/sitemap/robots | `patientaid.example.com` placeholder; run `python tools/set_domain.py https://your-domain` before launch |
 | Privacy policy | Placeholder outline; replace with the official policy URL/content |
 | App statistics / ratings | 3M+ downloads, 150K+ reviews and a 4.5 / 5 rating are displayed as supplied; confirm all three against the live Google Play listing before launch |
 | Contact details | Taken from the brief; reconfirm with ITmedicus before publishing |
@@ -208,7 +238,7 @@ path for content: text is painted as the fade begins rather than after it comple
 
 ---
 
-## 10. Sign-off checklist
+## 11. Sign-off checklist
 
 - [x] All 7 pages render without console errors
 - [x] Navigation, footer links, and in-page anchors resolve

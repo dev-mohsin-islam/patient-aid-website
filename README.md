@@ -46,10 +46,13 @@ patient-aid-website/
 ├── faq.html                 Full FAQ (10 questions + FAQPage schema)
 ├── contact.html             ITmedicus Solutions contact details
 ├── privacy.html             Privacy policy placeholder (replace before launch)
+├── 404.html                 Not-found page (noindex, links back home)
 ├── robots.txt
 ├── sitemap.xml
-├── favicon.svg              Vector favicon
-├── favicon-32.png
+├── favicon.ico              Multi-resolution icon (16/32/48)
+├── favicon.svg              Vector favicon with the embedded app icon
+├── favicon-16.png … -192.png  PNG icon set (16, 32, 48, 96, 192)
+├── manifest.json         Web app manifest with 192/512 icons
 ├── assets/
 │   ├── css/style.css        Design system + all page styles
 │   ├── js/main.js           Navigation, accordion, lightbox, reveal, tabs
@@ -62,6 +65,7 @@ patient-aid-website/
 └── tools/                   Development-only helpers (not deployed)
     ├── make_assets.py       Regenerates logo, favicon, and social preview
     ├── process_uploads.py   Crops/converts supplied screenshots to WebP
+    ├── set_domain.py        Switches placeholder domain to production
     ├── shot.mjs             Screenshot helper (headless Chrome + CDP)
     ├── qa.mjs               Automated QA suite
     └── preview/             QA screenshots and results (generated)
@@ -118,9 +122,16 @@ PNG) and is used for:
 
 - the header, footer, and hero brand marks (rendered from the PNG at 30–38 px);
 - `assets/img/patient-aid-logo.svg` — the developer-panel wordmark, which embeds the icon;
-- `favicon.svg`, `favicon-32.png`, and `assets/img/apple-touch-icon.png`, generated on a full-bleed
-  brand-blue square so mobile home screens mask it cleanly;
+- the browser icon set: `favicon.ico` (16/32/48), `favicon.svg`, `favicon-16/32/48/96/192.png`,
+  `assets/img/apple-touch-icon.png`, and `manifest.json` (192/512);
 - `assets/img/og-image.png` (1200 × 630) — social sharing image.
+
+Favicons are generated on a full-bleed brand-blue square so mobile home screens mask them cleanly. The
+16 px and 32 px versions have a slightly thickened white glyph so the stethoscope stays legible in a
+browser tab.
+
+Icon links carry a `?v=2` cache-buster. When the icon changes, bump that number in the `<head>` of every
+page (and in `404.html`) so returning visitors fetch the new file instead of a cached copy.
 
 If a higher-resolution or vector version of the icon becomes available, replace
 `assets/img/patient-aid-icon.png` and run `python tools/make_assets.py` to regenerate every size.
@@ -215,7 +226,7 @@ is decorative (`aria-hidden`).
 
 | Item | Where | What to do |
 | --- | --- | --- |
-| Domain | `<link rel="canonical">`, `og:url`, `og:image`, `twitter:image`, `sitemap.xml`, `robots.txt` | Replace `patientaid.example.com` with the production domain |
+| Domain | `<link rel="canonical">`, `og:url`, `og:image`, `twitter:image`, schema URLs, `sitemap.xml`, `robots.txt` | Run `python tools/set_domain.py https://your-domain` — it updates every absolute URL and removes the TODO notes |
 | Screenshots | `assets/img/screens/*.webp`, image `src`/`alt`, gallery `data-full` | Genuine screenshots are in place; refresh them if the app UI changes |
 | Logo & icons | `assets/img/patient-aid-icon.png` + generated sizes | Official icon is in use; replace the source PNG and re-run `tools/make_assets.py` if a higher-resolution asset arrives |
 | Privacy policy | `privacy.html` | Replace the placeholder text with the official policy, or point the links to the policy on itmedicus.com |
@@ -230,9 +241,66 @@ Play listing before launch, and add any further figures only with product-owner 
 
 ---
 
-## 6. Quality checks
+## 6. SEO
 
-The site was verified with an automated suite (403 checks across 7 pages × 3 viewports) covering
+Everything search engines need is in the HTML itself — no plugin, build step, or JavaScript rendering required.
+
+### Metadata
+
+Every page has a unique, keyword-led title (46–60 characters) and meta description (121–155 characters), a canonical URL, Open Graph and Twitter card tags with the 1200 × 630 preview image, `robots` directives (`index, follow, max-image-preview:large`), and an author tag. Open Graph descriptions are slightly longer than the meta descriptions and are safe to edit independently.
+
+### Production domain
+
+All absolute URLs currently use `https://patientaid.example.com` as a placeholder. Switch every
+canonical, Open Graph URL, schema URL, sitemap entry, and robots link in one command:
+
+```powershell
+python tools/set_domain.py https://www.patientaid.com
+```
+
+It rewrites 125 URLs across the seven pages, `sitemap.xml`, and `robots.txt`, and removes the
+"replace the domain" TODO comments. The script validates the argument before touching anything.
+
+### Structured data
+
+| Page | Schema types |
+| --- | --- |
+| All pages | `Organization`, `WebSite`, `WebPage` (shared `@id`s) |
+| Sub-pages | `BreadcrumbList` matching the visible breadcrumb |
+| Home | `SoftwareApplication` — Android, HealthApplication, free offer, screenshots, download URL, `aggregateRating` 4.5 / 150K ratings |
+| FAQ | `FAQPage` with all ten questions and answers |
+
+> Keep the `aggregateRating` values aligned with the stats band and the live Google Play listing. If the rating or review count changes, update both the visible numbers and this schema block in `index.html`.
+
+### Crawling and indexing
+
+- `robots.txt` allows the site, blocks `/tools/`, and declares the sitemap.
+- `sitemap.xml` lists all seven pages with `lastmod`, `changefreq`, and priority.
+- `404.html` is `noindex, follow` with a clear route back to the main pages. Point the host at it for
+  unknown paths (Netlify and GitHub Pages do this automatically; on Apache add
+  `ErrorDocument 404 /404.html`).
+- Semantic landmarks, a single `H1` per page, descriptive `alt` text on every screenshot, and `lang="bn"` on the Bangla sample content.
+- A complete favicon set (`favicon.ico`, SVG, 16–192 px PNGs), apple-touch icon, and `manifest.json`.
+- Internal links come from the header, footer, breadcrumbs, and contextual links in body copy.
+
+### Core Web Vitals
+
+- Hero screenshot is preloaded (`fetchpriority="high"`) and is the LCP element.
+- All other images are lazy-loaded with explicit `width`/`height`, so there is no layout shift.
+- WebP screenshots (25–83 KB each), one CSS file, one JS file, `preconnect` + `display=swap` fonts.
+
+### After launch
+
+1. Run `python tools/set_domain.py https://your-domain` and deploy.
+2. Add the property in Google Search Console and submit `sitemap.xml`.
+3. Check the home page in the [Rich Results Test](https://search.google.com/test/rich-results).
+4. Re-check the download, review, and rating figures against the Play listing each quarter.
+
+---
+
+## 7. Quality checks
+
+The site was verified with an automated suite (509 checks across 7 pages × 3 viewports) covering
 horizontal overflow, image loading and alt text, heading structure, duplicate IDs, in-page anchors,
 Play Store links, meta/OG tags, mobile menu, FAQ accordion, language switcher, and lightbox. See
 `TEST_REPORT.md` for the results.
@@ -254,7 +322,7 @@ node tools/shot.mjs --url file:///D:/patient-aid-website/index.html --out tools/
 
 ---
 
-## 7. Browser support
+## 8. Browser support
 
 Tested in current Chromium (Chrome/Edge). The layout uses modern but widely supported CSS: grid,
 flexbox, `clamp()`, `aspect-ratio`, `:focus-visible`, CSS masks, `backdrop-filter`, and
@@ -262,7 +330,7 @@ flexbox, `clamp()`, `aspect-ratio`, `:focus-visible`, CSS masks, `backdrop-filte
 
 ---
 
-## 8. Medical disclaimer
+## 9. Medical disclaimer
 
 The disclaimer is present in the footer of every page and on `faq.html`:
 

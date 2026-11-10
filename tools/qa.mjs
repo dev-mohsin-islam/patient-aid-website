@@ -295,6 +295,43 @@ const runPage = async (file, viewport) => {
   record(file, label, "medical disclaimer in footer", audit.footerDisclaimer, "");
   record(file, label, "html lang set", audit.lang === "en", audit.lang);
 
+  const seo = await tab.eval(`(() => {
+    const meta = (name) => (document.querySelector('meta[name="' + name + '"]') || {}).content || '';
+    const scripts = Array.from(document.querySelectorAll('script[type="application/ld+json"]'));
+    const types = [];
+    let parseErrors = 0;
+    scripts.forEach((script) => {
+      try {
+        const data = JSON.parse(script.textContent);
+        (data['@graph'] || [data]).forEach((node) => types.push(node['@type']));
+      } catch (error) {
+        parseErrors += 1;
+      }
+    });
+    const canonical = document.querySelector('link[rel="canonical"]');
+    return {
+      titleLength: document.title.length,
+      robots: meta('robots'),
+      canonical: canonical ? canonical.href : '',
+      types,
+      parseErrors,
+      breadcrumbSchema: types.includes('BreadcrumbList'),
+      breadcrumbVisible: Boolean(document.querySelector('.breadcrumb'))
+    };
+  })()`);
+  record(file, label, "title length", seo.titleLength >= 30 && seo.titleLength <= 65, `${seo.titleLength} chars`);
+  record(file, label, "robots + canonical", /index/.test(seo.robots) && /^https:\/\//.test(seo.canonical), JSON.stringify({ robots: seo.robots, canonical: seo.canonical }));
+  record(file, label, "structured data parses", seo.parseErrors === 0 && ["Organization", "WebSite", "WebPage"].every((type) => seo.types.includes(type)), JSON.stringify({ types: seo.types, errors: seo.parseErrors }));
+  record(file, label, "breadcrumb structured data", file === "index.html" ? seo.breadcrumbSchema === false : seo.breadcrumbSchema === seo.breadcrumbVisible, JSON.stringify({ schema: seo.breadcrumbSchema, visible: seo.breadcrumbVisible }));
+
+  const icons = await tab.eval(`(() => {
+    const links = Array.from(document.querySelectorAll('link[rel="icon"], link[rel="apple-touch-icon"]'))
+      .map((link) => link.getAttribute('href'));
+    const manifest = document.querySelector('link[rel="manifest"]');
+    return { count: links.length, manifest: manifest ? manifest.getAttribute('href') : '', hrefs: links };
+  })()`);
+  record(file, label, "favicon set + web manifest", icons.count >= 4 && /(webmanifest|manifest\.json)$/.test(icons.manifest), JSON.stringify(icons));
+
   if (viewport.mobile) {
     record(file, label, "mobile menu button visible", audit.navToggleVisible, "");
     const menu = await tab.eval(`(() => {
@@ -445,6 +482,26 @@ try {
       await runPage(file, viewport);
     }
   }
+
+  // Custom 404 page: must be noindex, canonical-free, and link back home.
+  const notFoundTab = await createTab();
+  await notFoundTab.goto(
+    "file:///" + path.join(SITE, "404.html").replace(/\\/g, "/"),
+    1440,
+    1000,
+    false
+  );
+  const notFound = await notFoundTab.eval(`(() => {
+    const meta = (name) => (document.querySelector('meta[name="' + name + '"]') || {}).content || '';
+    return {
+      robots: meta('robots'),
+      canonical: Boolean(document.querySelector('link[rel="canonical"]')),
+      h1: (document.querySelector('h1') || {}).textContent || '',
+      homeLink: Boolean(document.querySelector('a[href="/index.html"]'))
+    };
+  })()`);
+  record("404.html", "desktop", "404 is noindex with recovery links", /noindex/.test(notFound.robots) && !notFound.canonical && notFound.h1.trim().length > 3 && notFound.homeLink, JSON.stringify(notFound));
+  await closeTab(notFoundTab);
 
   // Mobile menu open screenshot for the visual report.
   const tab = await createTab();

@@ -1,0 +1,24 @@
+{
+  "name": "Patient Aid",
+  "short_name": "Patient Aid",
+  "description": "Offline healthcare information application for Bangladesh by ITmedicus Solutions.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#00608A",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/patient-aid-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

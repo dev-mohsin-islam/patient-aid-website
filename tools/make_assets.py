@@ -703,15 +703,69 @@ def write_png_assets():
     full_icon = Image.new("RGBA", (512, 512), (0, 96, 138, 255))
     full_icon.alpha_composite(app_icon.resize((512, 512), Image.LANCZOS))
 
+    full_icon.save(IMG / "patient-aid-icon-512.png", optimize=True)
+
     full_icon.convert("RGB").resize((180, 180), Image.LANCZOS).save(
         IMG / "apple-touch-icon.png", optimize=True
     )
     print("wrote apple-touch-icon.png")
 
-    full_icon.convert("RGB").resize((32, 32), Image.LANCZOS).save(
-        ROOT / "favicon-32.png", optimize=True
+    # PNG icon set. At 16-32 px the thin stethoscope needs a little extra
+    # weight, so the glyph is thickened before downscaling; larger sizes use
+    # the plain artwork.
+    icons = {}
+    for size in (16, 32, 48, 96, 192):
+        icons[size] = make_favicon(full_icon.convert("RGB"), size)
+        icons[size].save(ROOT / f"favicon-{size}.png", optimize=True)
+    print("wrote favicon PNGs (16-192)")
+
+    # Multi-resolution favicon.ico (PNG-encoded entries)
+    write_ico(ROOT / "favicon.ico", [icons[16], icons[32], icons[48]])
+    print("wrote favicon.ico")
+
+
+def make_favicon(icon, size):
+    """Downscale the icon, thickening the white glyph for 16-32 px tabs."""
+    import numpy as np
+    from PIL import Image, ImageFilter
+
+    if size > 32:
+        return icon.resize((size, size), Image.LANCZOS)
+
+    big = icon.resize((384, 384), Image.LANCZOS)
+    pixels = np.asarray(big).astype(int)
+    white = (pixels[:, :, 0] > 150) & (pixels[:, :, 1] > 170) & (pixels[:, :, 2] > 180)
+    mask = Image.fromarray((white * 255).astype("uint8")).filter(
+        ImageFilter.MaxFilter(9 if size <= 16 else 5)
     )
-    print("wrote favicon-32.png")
+    brand = Image.new("RGB", big.size, (0, 96, 138))
+    glyph = Image.composite(Image.new("RGB", big.size, (255, 255, 255)), brand, mask)
+    return glyph.resize((size, size), Image.LANCZOS)
+
+
+def write_ico(path, images):
+    """Write a PNG-based .ico so each size keeps its optimised pixels."""
+    import io
+    import struct
+
+    blobs = []
+    for image in images:
+        buffer = io.BytesIO()
+        image.save(buffer, format="PNG", optimize=True)
+        blobs.append((image.size[0], buffer.getvalue()))
+
+    header = struct.pack("<HHH", 0, 1, len(blobs))
+    offset = 6 + 16 * len(blobs)
+    entries = b""
+    data = b""
+    for size, blob in blobs:
+        entries += struct.pack(
+            "<BBBBHHII", size % 256, size % 256, 0, 0, 1, 32, len(blob), offset
+        )
+        offset += len(blob)
+        data += blob
+
+    path.write_bytes(header + entries + data)
 
 
 if __name__ == "__main__":
